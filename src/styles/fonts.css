@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Monument Extended';
+    src: url('../assets/fonts/MonumentExtended.otf') format('opentype');
+    /* If you have .woff or .woff2 versions, add them like this:
+    src: url('../assets/fonts/MonumentExtended.woff2') format('woff2'),
+         url('../assets/fonts/MonumentExtended.woff') format('woff'),
+         url('../assets/fonts/MonumentExtended.ttf') format('truetype');
+    */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* This helps with font loading performance */
+}
+
+/* If you have different weights, add them like this:
+@font-face {
+    font-family: 'Monument Extended';
+    src: url('../assets/fonts/MonumentExtended-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+*/

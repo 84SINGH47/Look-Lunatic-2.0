@@ -1,0 +1,19 @@
+:root {
+    --font-monument: 'Monument Extended', sans-serif;
+    /* other variables */
+}
+
+/* Using the variable */
+.your-element {
+    font-family: var(--font-monument);
+}
+
+/* Or directly */
+.your-element {
+    font-family: 'Monument Extended', sans-serif;
+}
+
+/* Test the font */
+h1 {
+    font-family: var(--font-monument);
+}
